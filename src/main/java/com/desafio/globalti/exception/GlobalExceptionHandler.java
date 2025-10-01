@@ -38,6 +38,6 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(HttpMessageNotReadableException.class)
     public ResponseEntity<String> handleHttpMessageNotReadable() {
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Data inválida! Ajuste os cmapos e tente novamente.");
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Data inválida! Ajuste os campos e tente novamente.");
     }
 }
