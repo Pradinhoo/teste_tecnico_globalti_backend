@@ -27,4 +27,13 @@ Antes de rodar esse projeto, você precisa ter instalado:
 1. Acesse a classe **src/main/java/com.desafio.globalti/GlobaltiApplication**
 2. Shift + F10 ou aperte no ícone verde de play no canto superior direito
 
+## Ou, rodando via linha de comando
+
+```bash
+mvn spring-boot:run
+```
+
 Isso iniciará o projeto e você poderá acessá-lo através do endereço `http://localhost:8080`.
+
+> Certifique-se de que o Front-End também está rodando seguindo as instruções do repositório do Front-End.
+
