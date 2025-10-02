@@ -8,25 +8,15 @@ Para que toda a aplicação funcione é necessário seguir o passo a passo do re
 
 Neste arquivo README, você encontrará um guia passo a passo para abrir o projeto em seu ambiente local.
 
-## Passo 1: Clonar o repositório
+## Passo 1: Abrir o projeto no Intellij IDEA
 
-Comece clonando este repositório para sua máquina local. Abra o terminal e execute o seguinte comando:
+1. Abra o **IntelliJ IDEA**
+2. Na tela inicial, clique em **Clone Repository**
+3. No campo URL cole o link desse repositório: https://github.com/Pradinhoo/teste_tecnico_globalti_backend.git
+4. No campo Directory, escolha onde irá colocar a pasta do projeto
+5. Aguarde o IntelliJ **importar o projeto** e baixar todas as dependências automaticamente
 
-```bash
-git clone https://github.com/Pradinhoo/teste_tecnico_globalti_backend.git
-cd teste_tecnico_globalti_backend
-```
-
-Isso criará uma cópia local do repositório em seu ambiente.
-
-## 2. Abrir o projeto no IntelliJ IDEA
-
-1. Abra o **IntelliJ IDEA**  
-2. Clique em **File > Open**  
-3. Selecione a pasta do projeto (onde está o `pom.xml`)  
-4. Aguarde o IntelliJ **importar o projeto** e baixar todas as dependências automaticamente
-
-## Passo 3: Rodar o projeto
+## Passo 2: Rodar o projeto
 
 1. Acesse a classe **src/main/java/com.desafio.globalti/GlobaltiApplication**
 2. Shift + F10 ou aperte no ícone verde de play no canto superior direito
