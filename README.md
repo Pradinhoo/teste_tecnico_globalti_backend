@@ -32,4 +32,3 @@ Isso criará uma cópia local do repositório em seu ambiente.
 2. Shift + F10 ou aperte no ícone verde de play no canto superior direito
 
 Isso iniciará o projeto e você poderá acessá-lo através do endereço `http://localhost:8080`.
----
