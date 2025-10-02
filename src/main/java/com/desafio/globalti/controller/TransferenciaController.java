@@ -3,11 +3,11 @@ package com.desafio.globalti.controller;
 import com.desafio.globalti.dto.TransferenciaDTO;
 import com.desafio.globalti.model.Transferencia;
 import com.desafio.globalti.service.TransferenciaService;
-import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

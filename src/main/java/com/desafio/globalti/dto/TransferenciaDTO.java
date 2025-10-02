@@ -1,12 +1,14 @@
 package com.desafio.globalti.dto;
 
-import jakarta.validation.constraints.*;
-
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Positive;
+import javax.validation.constraints.Size;
 import java.time.LocalDate;
 
 public class TransferenciaDTO {
 
-    @NotBlank (message = "O campo CONTA DE ORIGEM é obrigatório")
+    @NotBlank(message = "O campo CONTA DE ORIGEM é obrigatório")
     @Size(min = 10, max = 10, message = "O campo CONTA DE ORIGEM deve seguir o padrão XXXXXXXXXX")
     private String contaOrigem;
 
@@ -14,8 +16,8 @@ public class TransferenciaDTO {
     @Size(min = 10, max = 10, message = "O campo CONTA DE DESTINO deve seguir o padrão XXXXXXXXXX")
     private String contaDestino;
 
-    @NotNull (message = "O campo VALOR é obrigatório")
-    @Positive (message = "O valor deve ser maior que zero!")
+    @NotNull(message = "O campo VALOR é obrigatório")
+    @Positive(message = "O valor deve ser maior que zero!")
     private Double valor;
 
     @NotNull (message = "O campo DATA DA TRANSFERÊNCIA é obrigatório")
