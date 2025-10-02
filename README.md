@@ -8,6 +8,12 @@ Para que toda a aplicação funcione é necessário seguir o passo a passo do re
 
 Neste arquivo README, você encontrará um guia passo a passo para abrir o projeto em seu ambiente local.
 
+## Pré-requisitos
+Antes de rodar esse projeto, você precisa ter instalado:
+
+- **Java** (Versão 11 ou superior)
+- **Spring** (Versão 2.7.x ou superior)
+
 ## Passo 1: Abrir o projeto no Intellij IDEA
 
 1. Abra o **IntelliJ IDEA**
