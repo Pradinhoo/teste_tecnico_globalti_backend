@@ -23,6 +23,14 @@ public class TransferenciaDTO {
     @NotNull (message = "O campo DATA DA TRANSFERÊNCIA é obrigatório")
     private LocalDate dataDaTransferencia;
 
+    public TransferenciaDTO(String contaOrigem, String contaDestino, Double valor, LocalDate dataDaTransferencia, LocalDate dataDeAgendamento) {
+        this.contaOrigem = contaOrigem;
+        this.contaDestino = contaDestino;
+        this.valor = valor;
+        this.dataDaTransferencia = dataDaTransferencia;
+        this.dataDeAgendamento = dataDeAgendamento;
+    }
+
     private LocalDate dataDeAgendamento = LocalDate.now();
 
     public String getContaOrigem() {
